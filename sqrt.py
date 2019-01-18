@@ -16,6 +16,10 @@ c = -8
 
 print_root()
 
+x = int(input())
+y = int(input())
+z = int(input())
+
 
 def print_root2(a, b, c):
     r1 = (-b + (b**2 - 4 * a * c) ** 0.5) / (2 * a)
@@ -23,4 +27,4 @@ def print_root2(a, b, c):
 
     print('해는 {} 또는 {}'.format(r1,r2))
 
-print_root2(3,4,5)
+print_root2(x,y,z)
