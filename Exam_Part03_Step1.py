@@ -1,4 +1,4 @@
-mine = '보'
+mine = '바위'
 yours = '바위'
 
 if mine == yours:
