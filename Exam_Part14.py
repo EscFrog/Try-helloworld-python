@@ -34,3 +34,41 @@ words[position] = "맑음"
 new_weather = " ".join(words)
 
 print(new_weather)
+
+
+rainbow = ["빨", "주", "노", "초", "파", "남", "보"]
+
+# red_colors가 빨주노의 값을 갖도록 rainbow를 슬라이스
+red_colors = rainbow[:3]
+print(red_colors)
+
+# blue_colors가 파남보의 값을 갖도록 rainbow를 슬라이스
+blue_colors = rainbow[rainbow.index("파"):]
+print(blue_colors)
+
+def substring(s, start, end):
+    return s[start:end]
+
+str = "Hello world"
+between_2_5 = substring(str, 2, 5)
+print(between_2_5)
+
+list2 = list(range(20))
+
+new_list = list2[5:15:3]
+print(new_list)
+
+another_list = list2[5:18:4]
+print(another_list)
+
+list3 = list(range(6))
+print(list3)
+
+list3[1:4] = [11,22,33]
+print(list3)
+
+list4 = list(range(6))
+print(list4)
+
+del list4[1:4]
+print(list4)
